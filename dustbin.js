@@ -4,11 +4,11 @@ class Dustbin {
         this.width = width;
         this.height = height;
         this.image = loadImage("sprites/dustbin.png");
-	    World.add(world, this.body); 
+	      World.add(world, this.body); 
     }
     display() {
       var pos =this.body.position;
       fill("brown");
-      rect(pos.x, pos.y, this.width, this.height);
+      image(this.image, pos.x, pos.y, this.width, this.height);
     }
 }

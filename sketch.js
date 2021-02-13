@@ -9,7 +9,7 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 	
-	paper1 = new Paper(100,100);
+	paper1 = new Paper(100,100,70);
 	ground = new Ground(400, 780, 1600, 20);
 	dustbin1 = new Dustbin(900, 690, 100, 100);
 	dustbin2 = new Dustbin(880, 680, 20, 110);
